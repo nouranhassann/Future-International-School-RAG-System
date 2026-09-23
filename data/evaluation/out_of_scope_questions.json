@@ -1,0 +1,52 @@
+[
+    {
+        "question_id": "Q-OOS-001",
+        "question": "What is the capital of France?",
+        "user_role": "student",
+        "expected_source_documents": [],
+        "expected_access": "allowed",
+        "expected_behavior": "refuse",
+        "expected_answer_summary": "Should explicitly state that the information is unavailable in the retrieved context.",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-OOS-002",
+        "question": "How do I make a chocolate cake?",
+        "user_role": "teacher",
+        "expected_source_documents": [],
+        "expected_access": "allowed",
+        "expected_behavior": "refuse",
+        "expected_answer_summary": "Should explicitly state that the information is unavailable in the retrieved context.",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-OOS-003",
+        "question": "What is the current population of the United States?",
+        "user_role": "student",
+        "expected_source_documents": [],
+        "expected_access": "allowed",
+        "expected_behavior": "refuse",
+        "expected_answer_summary": "Should explicitly state that the information is unavailable in the retrieved context.",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-OOS-004",
+        "question": "Can you explain the plot of the movie Inception?",
+        "user_role": "teacher",
+        "expected_source_documents": [],
+        "expected_access": "allowed",
+        "expected_behavior": "refuse",
+        "expected_answer_summary": "Should explicitly state that the information is unavailable in the retrieved context.",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-OOS-005",
+        "question": "What are the rules for playing ice hockey?",
+        "user_role": "student",
+        "expected_source_documents": [],
+        "expected_access": "allowed",
+        "expected_behavior": "refuse",
+        "expected_answer_summary": "Should explicitly state that the information is unavailable in the retrieved context.",
+        "requires_multi_document_retrieval": false
+    }
+]

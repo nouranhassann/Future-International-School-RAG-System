@@ -1,0 +1,252 @@
+[
+    {
+        "question_id": "Q-EVAL-STU-001",
+        "question": "What is the penalty for late homework submission?",
+        "user_role": "student",
+        "expected_source_documents": ["DOC-SHARED-004"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "Late submissions incur a 10% deduction per day up to 3 days, after which it's a zero.",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-EVAL-STU-002",
+        "question": "When are the mid-year examinations for Mathematics?",
+        "user_role": "student",
+        "expected_source_documents": ["DOC-SHARED-003"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "January 11 from 9:00 AM to 11:00 AM.",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-EVAL-STU-003",
+        "question": "What are the core topics in the Mathematics curriculum?",
+        "user_role": "student",
+        "expected_source_documents": ["DOC-SHARED-007"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "Algebra, Geometry, Statistics and Probability, and Calculus.",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-EVAL-STU-004",
+        "question": "How do I access the school Wi-Fi?",
+        "user_role": "student",
+        "expected_source_documents": ["DOC-STU-GEN-003"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "Use student ID and portal password to connect to FSIS-Student.",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-EVAL-STU-005",
+        "question": "What is the formula for the area of a circle?",
+        "user_role": "student",
+        "expected_source_documents": ["DOC-STU-MATH-002"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "A = πr^2",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-EVAL-STU-006",
+        "question": "What is Newton's Second Law?",
+        "user_role": "student",
+        "expected_source_documents": ["DOC-STU-SCI-001"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "Force equals mass times acceleration (F=ma).",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-EVAL-STU-007",
+        "question": "What is the PEEL structure for essays?",
+        "user_role": "student",
+        "expected_source_documents": ["DOC-STU-ENG-001"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "Point, Evidence, Explanation, Link.",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-EVAL-STU-008",
+        "question": "When does the Debate Club meet?",
+        "user_role": "student",
+        "expected_source_documents": ["DOC-STU-ACT-001"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "Wednesdays at 3:45 PM in Room 102.",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-EVAL-STU-009",
+        "question": "What happens if I plagiarize?",
+        "user_role": "student",
+        "expected_source_documents": ["DOC-SHARED-005"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "First offense results in a zero and parent meeting. Subsequent offenses may lead to suspension.",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-EVAL-STU-010",
+        "question": "When are the dates for the Winter Break?",
+        "user_role": "student",
+        "expected_source_documents": ["DOC-SHARED-001"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "December 18, 2026 to January 3, 2027.",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-EVAL-TCH-001",
+        "question": "What percentage of the grade should be Formative Assessments?",
+        "user_role": "teacher",
+        "expected_source_documents": ["DOC-TCH-GEN-001"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "35%",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-EVAL-TCH-002",
+        "question": "Where should I store summative assessment drafts?",
+        "user_role": "teacher",
+        "expected_source_documents": ["DOC-TCH-GEN-002"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "On the secure teacher shared drive (T:\\Assessments).",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-EVAL-TCH-003",
+        "question": "What is the code for the chemical inventory lockbox?",
+        "user_role": "teacher",
+        "expected_source_documents": ["DOC-TCH-SCI-001"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "8421",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-EVAL-TCH-004",
+        "question": "When must quarterly grades be submitted to the registrar?",
+        "user_role": "teacher",
+        "expected_source_documents": ["DOC-TCH-GEN-001"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "No later than 4:00 PM on the Wednesday following the end of the quarter.",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-EVAL-TCH-005",
+        "question": "What is the maximum deduction for grammar errors on a major essay?",
+        "user_role": "teacher",
+        "expected_source_documents": ["DOC-TCH-ENG-001"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "15% of the total essay grade.",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-EVAL-TCH-006",
+        "question": "When are lesson plans due?",
+        "user_role": "teacher",
+        "expected_source_documents": ["DOC-TCH-GEN-003"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "Uploaded to the principal's shared folder by 5:00 PM every Friday.",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-EVAL-TCH-007",
+        "question": "What is Strike 2 in the classroom management model?",
+        "user_role": "teacher",
+        "expected_source_documents": ["DOC-TCH-GEN-004"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "Seat change or teacher-led detention, logged in the SBS.",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-EVAL-TCH-008",
+        "question": "By what time must I report an absence?",
+        "user_role": "teacher",
+        "expected_source_documents": ["DOC-TCH-STAFF-001"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "Before 6:00 AM on the day of the absence via AES.",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-EVAL-TCH-009",
+        "question": "What is the feedback sandwich?",
+        "user_role": "teacher",
+        "expected_source_documents": ["DOC-TCH-STAFF-005"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "Start with a positive observation, provide critical feedback, and end with an encouraging remark or action step.",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-EVAL-TCH-010",
+        "question": "When are parent-teacher conferences held?",
+        "user_role": "teacher",
+        "expected_source_documents": ["DOC-TCH-STAFF-003"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "Twice a year (November and April).",
+        "requires_multi_document_retrieval": false
+    },
+    {
+        "question_id": "Q-EVAL-MULTI-001",
+        "question": "When is the winter break and when are the mid-year math exams?",
+        "user_role": "student",
+        "expected_source_documents": ["DOC-SHARED-001", "DOC-SHARED-003"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "Winter break is Dec 18 to Jan 3. Math exams are Jan 11.",
+        "requires_multi_document_retrieval": true
+    },
+    {
+        "question_id": "Q-EVAL-MULTI-002",
+        "question": "How should I structure my essay paragraphs and what is the maximum grammar deduction?",
+        "user_role": "teacher",
+        "expected_source_documents": ["DOC-STU-ENG-001", "DOC-TCH-ENG-001"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "Structure paragraphs using PEEL. Grammar deduction is capped at 15%.",
+        "requires_multi_document_retrieval": true
+    },
+    {
+        "question_id": "Q-EVAL-MULTI-003",
+        "question": "Where does the robotics club meet and what is the school policy on cell phones?",
+        "user_role": "student",
+        "expected_source_documents": ["DOC-STU-ACT-001", "DOC-SHARED-002"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "Robotics meets Thursdays 4:00 PM in the Science Lab. Phones must be off and in lockers.",
+        "requires_multi_document_retrieval": true
+    },
+    {
+        "question_id": "Q-EVAL-MULTI-004",
+        "question": "What is the penalty for late homework and can it be waived?",
+        "user_role": "teacher",
+        "expected_source_documents": ["DOC-SHARED-004", "DOC-TCH-GEN-001"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "10% per day up to 3 days. It can be waived internally for IEPs or counseling directions.",
+        "requires_multi_document_retrieval": true
+    },
+    {
+        "question_id": "Q-EVAL-MULTI-005",
+        "question": "What are Newton's laws and the Pythagorean theorem?",
+        "user_role": "student",
+        "expected_source_documents": ["DOC-STU-SCI-001", "DOC-STU-MATH-002"],
+        "expected_access": "allowed",
+        "expected_behavior": "answer",
+        "expected_answer_summary": "Newton's laws cover inertia, F=ma, and equal/opposite reactions. Pythagorean theorem is a^2 + b^2 = c^2.",
+        "requires_multi_document_retrieval": true
+    }
+]

@@ -1,0 +1,36 @@
+# Dataset Manifest
+
+| Document ID | Title | Category | Subject | Audience | Access Level | File Path | Description |
+|-------------|-------|----------|---------|----------|--------------|-----------|-------------|
+| DOC-SHARED-001 | Academic Calendar 2026-2027 | Academic | General | All | shared | `data/raw/shared/academic/academic_calendar.md` | The official academic calendar for Future Scholars International School for 2026-2027. |
+| DOC-SHARED-002 | General School Rules | Policies | General | All | shared | `data/raw/shared/school_policies/general_rules.md` | General rules and expectations for all students and staff. |
+| DOC-SHARED-003 | Exam Schedule 2026-2027 | Exams | General | All | shared | `data/raw/shared/exams/exam_schedule.md` | Detailed schedule for the mid-year and final examinations. |
+| DOC-SHARED-004 | Homework Policy | Policies | General | All | shared | `data/raw/shared/school_policies/homework_policy.md` | Guidelines regarding homework expectations and deadlines. |
+| DOC-SHARED-005 | Academic Integrity Policy | Policies | General | All | shared | `data/raw/shared/school_policies/academic_integrity.md` | Policy defining and prohibiting academic dishonesty. |
+| DOC-SHARED-006 | Student Support Guidelines | Academic | General | All | shared | `data/raw/shared/academic/student_support.md` | Information on support services available to students. |
+| DOC-SHARED-007 | Mathematics Curriculum Overview | Academic | Mathematics | All | shared | `data/raw/shared/academic/math_curriculum.md` | Overview of the mathematics curriculum for the school year. |
+| DOC-SHARED-008 | Science Curriculum Overview | Academic | Science | All | shared | `data/raw/shared/academic/science_curriculum.md` | Overview of the science curriculum for the school year. |
+| DOC-STU-MATH-001 | Grade 10 Mathematics Study Guide | Study Guide | Mathematics | Students | student | `data/raw/student/mathematics/grade10_math_guide.md` | A comprehensive study guide for Grade 10 mathematics students. |
+| DOC-STU-SCI-001 | Physics Fundamentals | Study Guide | Science | Students | student | `data/raw/student/science/physics_fundamentals.md` | Basic principles of physics for middle and high school students. |
+| DOC-STU-ENG-001 | Essay Writing Guide | Study Guide | English | Students | student | `data/raw/student/english/essay_writing_guide.md` | A student guide to structuring and writing effective essays. |
+| DOC-STU-GEN-001 | Exam Preparation Guide | Guide | General | Students | student | `data/raw/student/general/exam_prep_guide.md` | Tips and strategies for preparing for school examinations. |
+| DOC-STU-ACT-001 | Student Activities Guide | Activities | Extracurricular | Students | student | `data/raw/student/activities/activities_guide.md` | Information on clubs, sports, and extracurricular activities. |
+| DOC-STU-SCI-002 | Biology Fundamentals | Study Guide | Science | Students | student | `data/raw/student/science/biology_fundamentals.md` | Basic principles of biology for students. |
+| DOC-STU-SCI-003 | Chemistry Basics | Study Guide | Science | Students | student | `data/raw/student/science/chemistry_basics.md` | Basic principles of chemistry for students. |
+| DOC-STU-MATH-002 | Geometry Fundamentals | Study Guide | Mathematics | Students | student | `data/raw/student/mathematics/geometry_fundamentals.md` | Basic principles of geometry for students. |
+| DOC-STU-MATH-003 | Algebra Fundamentals | Study Guide | Mathematics | Students | student | `data/raw/student/mathematics/algebra_fundamentals.md` | Basic principles of algebra for students. |
+| DOC-STU-ENG-002 | English Grammar Guide | Study Guide | English | Students | student | `data/raw/student/english/grammar_guide.md` | A quick reference guide for English grammar rules. |
+| DOC-STU-GEN-002 | Student Study Skills | Guide | General | Students | student | `data/raw/student/general/study_skills.md` | Strategies for effective studying and time management. |
+| DOC-STU-GEN-003 | Student FAQ | FAQ | General | Students | student | `data/raw/student/general/student_faq.md` | Frequently asked questions by students. |
+| DOC-TCH-GEN-001 | Teacher Grading Policy | Policy | General | Teachers | teacher | `data/raw/teacher/general/grading_policy.md` | Internal grading percentages and procedures for staff. |
+| DOC-TCH-GEN-002 | Assessment Design Guidelines | Guidelines | General | Teachers | teacher | `data/raw/teacher/general/assessment_design.md` | Guidelines for creating fair and rigorous assessments. |
+| DOC-TCH-MATH-001 | Mathematics Teacher Guide | Teacher Guide | Mathematics | Teachers | teacher | `data/raw/teacher/mathematics/math_teacher_guide.md` | Instructional strategies and pacing for mathematics courses. |
+| DOC-TCH-SCI-001 | Science Teacher Guide | Teacher Guide | Science | Teachers | teacher | `data/raw/teacher/science/science_teacher_guide.md` | Lab safety and equipment procedures for science teachers. |
+| DOC-TCH-ENG-001 | English Teacher Guide | Teacher Guide | English | Teachers | teacher | `data/raw/teacher/english/english_teacher_guide.md` | Guidelines for grading essays and selecting literature. |
+| DOC-TCH-GEN-003 | Lesson Planning Standards | Standards | General | Teachers | teacher | `data/raw/teacher/general/lesson_planning.md` | Requirements for teacher lesson plans. |
+| DOC-TCH-GEN-004 | Classroom Management Guidelines | Guidelines | General | Teachers | teacher | `data/raw/teacher/general/classroom_management.md` | Internal procedures for handling classroom behavior. |
+| DOC-TCH-STAFF-001 | Teacher Attendance Procedures | Procedures | Staff | Teachers | teacher | `data/raw/teacher/staff/attendance_procedures.md` | Procedures for reporting teacher absences and arranging coverage. |
+| DOC-TCH-STAFF-002 | Academic Performance Review Procedures | Procedures | Staff | Teachers | teacher | `data/raw/teacher/staff/performance_review.md` | Procedures for annual teacher performance reviews. |
+| DOC-TCH-STAFF-003 | Teacher Responsibilities Handbook | Handbook | Staff | Teachers | teacher | `data/raw/teacher/staff/responsibilities.md` | Overview of duties outside of classroom instruction. |
+| DOC-TCH-STAFF-004 | Exam Administration Procedures | Procedures | Staff | Teachers | teacher | `data/raw/teacher/staff/exam_administration.md` | Secure procedures for proctoring exams. |
+| DOC-TCH-STAFF-005 | Teacher Feedback Guidelines | Guidelines | Staff | Teachers | teacher | `data/raw/teacher/staff/feedback_guidelines.md` | Guidelines on providing effective feedback to students. |
